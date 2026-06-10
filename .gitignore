@@ -1,0 +1,10 @@
+# Python related
+python/venv
+python/**/logs
+
+# Platformio related
+platformio/.pio
+platformio/.vscode
+platformio/include
+platformio/lib
+platformio/test

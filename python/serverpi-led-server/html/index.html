@@ -1,0 +1,199 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Led brightness server</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/img/led-16.png">
+    <link rel="icon" type="image/png" sizes="128x128" href="/img/led-128.png">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <form class="form" method="POST">
+        <h3>Power led</h3>
+        <div class="form-row">
+            <label class="form-label left">Min brightness</label>
+            <input type="range" class="form-range" id="pwr_min_brt_rng" min="0" max="100">
+            <span class="right" id="pwr_min_brt_span">100%</span>
+        </div>
+        <div class="form-row">
+            <label class="form-label left">Max brightness</label>
+            <input type="range" class="form-range" id="pwr_max_brt_rng" min="0" max="100">
+            <span class="right" id="pwr_max_brt_span">100%</span>
+        </div>
+        <h3>Sata led</h3>
+        <div class="form-row">
+            <label class="form-label left">Brightness</label>
+            <input type="range" class="form-range" id="sata_brt_rng" min="0" max="100">
+            <span class="right" id="sata_brt_span">100%</span>
+        </div>
+        <div class="form-row submit">
+            <button type="button" onclick="loadDefault()">Load default</button>
+            <button type="button" onclick="undoChanges()">Undo changes</button>
+            <button type="button" onclick="saveBrightness()">Save</button>
+        </div>
+        <!--
+        <h3>Error led</h3>
+        <div class="form-row">
+            <label class="form-label left">Min brightness</label>
+            <input type="range" class="form-range" id="pwr_min_brt_rng" min="0" max="100">
+            <span class="right" id="pwr_min_brt_span">100%</span>
+        </div>
+        <div class="form-row">
+            <label class="form-label left">Max brightness</label>
+            <input type="range" class="form-range" id="pwr_max_brt_rng" min="0" max="100">
+            <span class="right" id="pwr_max_brt_span">100%</span>
+        </div>
+        -->
+    </form>
+
+    <script>
+        defaultBrightness = [];
+        storedBrightness = [];
+        testBrightness = [];
+
+        // Element parser
+        function _id(el, root = document) {
+            return root.getElementById(el);
+        }
+
+        // Set input range value's
+        function setRangeValues(brightness) {
+            _id("pwr_min_brt_span").innerHTML = brightness[0] + "%";
+            _id("pwr_min_brt_rng").value = brightness[0];
+            _id("pwr_max_brt_span").innerHTML = brightness[1] + "%";
+            _id("pwr_max_brt_rng").value = brightness[1];
+            _id("sata_brt_span").innerHTML = brightness[2] + "%";
+            _id("sata_brt_rng").value = brightness[2];
+        }
+
+        // Make brightness request's
+        async function makeBrightnessRequests() {
+            const array = [
+                fetch('/json/defaultBrightness.json'),
+                fetch('/json/storedBrightness.json'),
+                fetch('/json/testBrightness.json')
+            ];
+            try {
+                const responses = await Promise.all(array);
+                const data = await Promise.all(responses.map(response => response.json()))
+                //console.log(data);
+                defaultBrightness = data[0];
+                storedBrightness = data[1];
+                testBrightness = data[2];
+                //console.log(defaultBrightness);
+                //console.log(storedBrightness);
+                //console.log(testBrightness);
+                setRangeValues(testBrightness)
+            } catch (e) {
+                console.error(e);
+            }
+        }
+        makeBrightnessRequests();
+
+        // Make default brightness request
+        async function makeDefaultBrightnessRequest() {
+            const array = [
+                fetch('/json/defaultBrightness.json')
+            ];
+            try {
+                const responses = await Promise.all(array);
+                const data = await Promise.all(responses.map(response => response.json()))
+                //console.log(data);
+                defaultBrightness = data[0];
+                //console.log(defaultBrightness);
+                setRangeValues(defaultBrightness)
+            } catch (e) {
+                console.error(e);
+            }
+        }
+
+        // Make stored brightness request
+        async function makeStoredBrightnessRequest() {
+            const array = [
+                fetch('/json/storedBrightness.json')
+            ];
+            try {
+                const responses = await Promise.all(array);
+                const data = await Promise.all(responses.map(response => response.json()))
+                //console.log(data);
+                storedBrightness = data[0];
+                //console.log(storedBrightness);
+                setRangeValues(storedBrightness)
+            } catch (e) {
+                console.error(e);
+            }
+        }
+
+        // Make test brightness request
+        async function makeTestBrightnessRequest() {
+            const array = [
+                fetch('/json/testBrightness.json')
+            ];
+            try {
+                const responses = await Promise.all(array);
+                const data = await Promise.all(responses.map(response => response.json()))
+                //console.log(data);
+                testBrightness = data[0];
+                //console.log(testBrightness);
+                setRangeValues(testBrightness)
+            } catch (e) {
+                console.error(e);
+            }
+        }
+
+        // Load default
+        function loadDefault() {
+            makeDefaultBrightnessRequest();
+        }
+
+        // Undo changes
+        function undoChanges() {
+            makeStoredBrightnessRequest();
+        }
+
+        // Set test brightness
+        async function setTestBrightness(index, brightness) {
+            const array = [
+                fetch(`/setTestBrightness?index=${index}&brightness=${brightness}`)
+            ];
+            try {
+                const responses = await Promise.all(array);
+            } catch (e) {
+                console.error(e);
+            }
+        }
+
+        // Save brightness
+        async function saveBrightness() {
+            const array = [
+                fetch(`/saveBrightness?brightness=${_id("pwr_min_brt_rng").value},${_id("pwr_max_brt_rng").value},${_id("sata_brt_rng").value}`)
+            ];
+            try {
+                const responses = await Promise.all(array);
+                makeStoredBrightnessRequest();
+            } catch (e) {
+                console.error(e);
+            }
+        }
+
+        // Event listener power led min brightness
+        _id("pwr_min_brt_rng").addEventListener("input", function () {
+            _id("pwr_min_brt_span").innerHTML = this.value + "%";
+            setTestBrightness(0, this.value)
+        });
+        // Event listener power led max brightness
+        _id("pwr_max_brt_rng").addEventListener("input", function () {
+            _id("pwr_max_brt_span").innerHTML = this.value + "%";
+            setTestBrightness(1, this.value)
+        });
+        // Event listener sata led brightness
+        _id("sata_brt_rng").addEventListener("input", function () {
+            _id("sata_brt_span").innerHTML = this.value + "%";
+            setTestBrightness(2, this.value)
+        });
+    </script>
+</body>
+
+</html>

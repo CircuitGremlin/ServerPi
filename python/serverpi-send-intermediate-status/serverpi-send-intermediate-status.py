@@ -7,13 +7,16 @@ GPL-3.0 license
 Write intermediate byte to ATtiny
 """
 
-# Standard librarys
+# Standard modules
 import os
 from datetime import datetime
 import logging
 
-# Insatlled libraries via pip
+# Insatlled modules via pip
 from smbus2 import SMBus
+
+# Project related modules
+# ...
 
 # I2c
 I2C_BUS = 1  # 1

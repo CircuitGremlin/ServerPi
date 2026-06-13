@@ -7,7 +7,7 @@ GPL-3.0 license
 Server to configure a neopixel on TvPi IO-Board
 """
 
-# Standard librarys
+# Standard modules
 import json
 import os
 import sys
@@ -16,8 +16,11 @@ from http.server import BaseHTTPRequestHandler, HTTPServer, SimpleHTTPRequestHan
 from urllib.parse import urlparse, parse_qs
 import socket
 
-# Insatlled libraries via pip
+# Insatlled modules via pip
 from smbus2 import SMBus
+
+# Project related modules
+# ...
 
 # Webserver
 PORT = 3001

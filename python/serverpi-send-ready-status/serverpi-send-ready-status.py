@@ -30,15 +30,15 @@ I2C_RUNLEVEL_READY = 0x02  # 2
 SLEEP_TIME = 5
 
 # Logging
-dir_path = os.path.dirname(os.path.realpath(__file__))
-file_name = os.path.basename(__file__)
-# os.makedirs(dir_path + "/logs/" + file_name, exist_ok=True)
-os.makedirs(dir_path + "/logs", exist_ok=True)
+DIR_PATH = os.path.dirname(os.path.realpath(__file__))
+FILE_NAME = os.path.basename(__file__)
+# os.makedirs(DIR_PATH + "/logs/" + FILE_NAME, exist_ok=True)
+os.makedirs(DIR_PATH + "/logs", exist_ok=True)
 now = datetime.now()
 logging.basicConfig(
     format="%(asctime)s %(levelname)-8s %(lineno)-4d %(funcName)s(): %(message)s",
-    # filename=dir_path + "/logs/" + file_name +
-    filename=dir_path + "/logs" +
+    # filename=DIR_PATH + "/logs/" + FILE_NAME +
+    filename=DIR_PATH + "/logs" +
     "/%s.log" % (now.strftime("%Y_%m_%d")),
     datefmt="%H:%M:%S",
     level=logging.ERROR,

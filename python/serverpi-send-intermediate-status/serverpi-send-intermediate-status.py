@@ -32,14 +32,11 @@ SLEEP_TIME = 5
 # Logging
 DIR_PATH = os.path.dirname(os.path.realpath(__file__))
 FILE_NAME = os.path.basename(__file__)
-# os.makedirs(DIR_PATH + "/logs/" + FILE_NAME, exist_ok=True)
 os.makedirs(DIR_PATH + "/logs", exist_ok=True)
 now = datetime.now()
 logging.basicConfig(
     format="%(asctime)s %(levelname)-8s %(lineno)-4d %(funcName)s(): %(message)s",
-    # filename=DIR_PATH + "/logs/" + FILE_NAME +
-    filename=DIR_PATH + "/logs" +
-    "/%s.log" % (now.strftime("%Y_%m_%d")),
+    filename=DIR_PATH + "/logs/%s.log" % (now.strftime("%Y_%m_%d")),
     datefmt="%H:%M:%S",
     level=logging.ERROR,
     # level=logging.DEBUG,

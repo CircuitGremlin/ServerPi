@@ -2,6 +2,7 @@
 """
 !/usr/bin/env python
 This Python file uses the following encoding: utf-8
+
 GPL-3.0 license
 
 Write ready byte to ATtiny

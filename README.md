@@ -1,15 +1,72 @@
 # OLED Advanced Stats Display Script For Raspberry Pi
 
 - [Information](#information)
-- [Setup your display](#setup-your-display)
+- [Case](#setup-your-display)
+- [PCB](#setup-your-display)
+- [Bill of materials](#bill-of-materials)
 - [Installation guide](#installation-guide)
 - [Configuration](#configuration)
-- [Testing](#testing)
-- [Add service OR crontab](#add-service-or-crontab)
-- [Contribute](#contribute)
-- [Acknowledgment](#acknowledgment)
 
 # Information
+
+
+# Case
+
+
+# PCB
+
+
+# Bill of materials
+### Raspberry Pi hardware
+Quantity  | Part
+:---------|:-----
+1 | Raspberry Pi 5
+1 | Geekworm X1009 PCIe to 5-Port SATA Shield for Raspberry Pi 5
+1 | Geekworm H505 Active Cooler for Raspberry Pi 5
+5 | Sata male to female adapter
+5 | 10cm Sata cable
+1 | Raspberry Pi 5 RTC Batterie
+1 | 60x15mm or 60x10mm fan (12V PWM recomended)
+
+### Case hardware
+Quantity  | Part | Dimension | Purpose
+:---------|:-----|:----------|:-------
+45  | Stainless screw | M3x6mm - M3x7mm | Case, PCB, fan
+45  | Heatinsert | M3xL3xOD4.5mm | Case, PCB, fan
+4   | Standoff | M2.5x6mm | Raspberry Pi mount
+4   | Screw | M2.5x6mm - M2.5x8mm | Raspberry Pi mount
+
+### Plywood panels
+Quantity  | Part | Dimension
+:---------|:-----|:----------
+2 | Top/Bottom | 194x149x4mm
+2 | Left/Right | 192x80x4mm
+1 | Front | 80x48x2mm
+
+### PCB
+Quantity  | Part | Value
+:---------|:-----|:----------
+1 | PCB | JLCPCB
+1 | Oled | 1.54"
+2 | Button | 12X12X7,3mm 6Pin with led
+5 | Led | 5mm
+1 | Connector JST XH | 5pin male & female & crimp contacts
+1 | Connector JST XH | 9pin male & female & crimp contacts
+2 | Pinheader 2.54mm | 4pin
+1 | MCU SOIC-14 | ATtiny1614
+1 | LDO SOT-23 | MCP1702T-3302ECB
+5 | PNP transistor SOT-23 | BC857
+1 | NPN transistor SOT-23 | BC847
+2 | Resistor 0805 | 30R
+5 | Resistor 0805 | 270R
+2 | Resistor 0805 | 4K7
+1 | Resistor 0805 | 10K
+6 | Resistor 0805 | 33K
+2 | Capacitor 0805 | 1μF 
+1 | Capacitor 0805 | 0.1μF / 100nF
+1 | Fuse 0805 | <100mA (optional)
+14 | Jumperwire | 15-20cm with female housing
+1 | Combo | Male PWM fan connector & cable
 
 # Installation guide
 ## 1. Update system

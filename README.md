@@ -25,16 +25,16 @@ This server case isn't the smallest, but I'm happy with it so far. It sits on my
 
 
 ## Case
-[3D print files](https://github.com/CircuitGremlin/ServerPi/blob/main/3d_print_files)
-[Plywood panel plans](https://github.com/CircuitGremlin/ServerPi/blob/main/plywood_panel_plans)
+![3D print files](https://github.com/CircuitGremlin/ServerPi/blob/main/3d_print_files)
+![Plywood panel plans](https://github.com/CircuitGremlin/ServerPi/blob/main/plywood_panel_plans)
 
 ![picture alt](https://github.com/CircuitGremlin/ServerPi/blob/main/RPi5_X1009_Case_1.png "RPi5 X1009 Case")
 ![picture alt](https://github.com/CircuitGremlin/ServerPi/blob/main/RPi5_X1009_Case_2.png "RPi5 X1009 Case")
 
 ## PCB
-[Schematic](https://github.com/CircuitGremlin/ServerPi/blob/main/pcb_files/Schematic_RPi5_ServerPi_v0.03.pdf)
-[Preview](https://github.com/CircuitGremlin/ServerPi/blob/main/pcb_files/PCB_RPi5_ServerPi_v0.03.pdf)
-[Files](https://github.com/CircuitGremlin/ServerPi/blob/main/pcb_files)
+![Schematic](https://github.com/CircuitGremlin/ServerPi/blob/main/pcb_files/Schematic_RPi5_ServerPi_v0.03.pdf)
+![Preview](https://github.com/CircuitGremlin/ServerPi/blob/main/pcb_files/PCB_RPi5_ServerPi_v0.03.pdf)
+![Files](https://github.com/CircuitGremlin/ServerPi/blob/main/pcb_files)
 
 ![picture alt](https://github.com/CircuitGremlin/ServerPi/blob/main/pcb_files/RPi5_ServerPi_v0.03_1.png "RPi5 ServerPi v0.03")
 ![picture alt](https://github.com/CircuitGremlin/ServerPi/blob/main/pcb_files/RPi5_ServerPi_v0.03_2.png "RPi5 ServerPi v0.03")
@@ -128,7 +128,7 @@ Stop server with ctrl+c
 
 
 # Oled stats
-I use my own python script: https://github.com/CircuitGremlin/RPiOledStatsLuma
+I use my own python script: ![https://github.com/CircuitGremlin/RPiOledStatsLuma](https://github.com/CircuitGremlin/RPiOledStatsLuma)
 
 
 # Known issues

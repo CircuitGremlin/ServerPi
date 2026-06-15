@@ -13,6 +13,7 @@
 [3D print files](https://github.com/CircuitGremlin/ServerPi/blob/main/3d_print_files)
 [Plywood panel plans](https://github.com/CircuitGremlin/ServerPi/blob/main/plywood_panel_plans)
 
+![picture alt](https://github.com/CircuitGremlin/ServerPi/blob/main/RPi5_X1009_Case.png "RPi5 X1009 Case")
 
 ## PCB
 [Schematic](https://github.com/CircuitGremlin/ServerPi/blob/main/pcb_files/Schematic_RPi5_ServerPi_v0.03.pdf)

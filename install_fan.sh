@@ -5,7 +5,7 @@ echo "Backup config.txt"
 sudo cp /boot/firmware/config.txt /boot/firmware/config.txt.bak
 
 # Add lines to '/boot/firmware/config.txt'
-echo "Add lines to '/boot/firmware/config.txt"
+echo "Add lines to '/boot/firmware/config.txt'"
 sudo sh -c 'echo "# Enable case fan" >> /boot/firmware/config.txt'
 sudo sh -c 'echo "dtoverlay=pwm-gpio-fan,fan_gpio=27" >> /boot/firmware/config.txt'
 sudo sh -c 'echo "" >> /boot/firmware/config.txt'

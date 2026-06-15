@@ -5,6 +5,7 @@
 - [Bill of materials](#bill-of-materials)
 - [Installation](#installation)
 - [Led configuration](#led-configuration)
+- [Oled stats](#oled-stats)
 - [Known issues](#known-issues)
 - [To do](#to-do)
 - [Contribute](#contribute)
@@ -124,6 +125,10 @@ python ~/ServerPi/python/serverpi-led-server/serverpi-led-server.py
 Go to http://your-server:3001 and set your led brightness
 
 Stop server with ctrl+c
+
+
+# Oled stats
+I use my own python script: https://github.com/CircuitGremlin/RPiOledStatsLuma
 
 
 # Known issues

@@ -13,13 +13,14 @@
 # Information
 A few years ago, I built a server with a CM4, a CM4IO board and an asm1064 PCI-e card. With the release of the Raspberry Pi 5, I wanted to build a new server. I prefer the Geekworm X1009 to the Radxa Penta because it has five ports and the power connector is on the back.
 
-My server case isn't the smallest, but I'm happy with it so far. It sits on my media unit and is always visible, so it needs to look good.
+This server case isn't the smallest, but I'm happy with it so far. It sits on my media unit and is always visible, so it needs to look good.
 
 
 # Key features
 - Supports 5x2.5" HDD up to 15mm on caddy's
 - The SD card access is located on the side behind the ventilation grille.
 - Custom PCB and software
+- 149x194x88mm (width x depth x height(without feet))
 
 
 ## Case

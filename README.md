@@ -107,6 +107,6 @@ Run python led server
 ```
 python ~/ServerPi/python/serverpi-led-server/serverpi-led-server.py
 ```
-Go to http://<your-ip-address>:3001
+Go to http://your-server:3001
 
 Stop server with ctrl+c

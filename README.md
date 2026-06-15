@@ -1,6 +1,6 @@
 - [Information](#information)
-- [Case](#setup-your-display)
-- [PCB](#setup-your-display)
+- [Case](#case)
+- [PCB](#pcb)
 - [Bill of materials](#bill-of-materials)
 - [Installation guide](#installation-guide)
 - [Configuration](#configuration)

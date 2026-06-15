@@ -11,7 +11,7 @@
 
 ## Case
 [3D print files](https://github.com/CircuitGremlin/ServerPi/blob/main/3d_print_files)
-[Plywood panel files](https://github.com/CircuitGremlin/ServerPi/blob/main/plywood_panel_files)
+[Plywood panel plans](https://github.com/CircuitGremlin/ServerPi/blob/main/plywood_panel_plans)
 
 
 ## PCB

@@ -110,7 +110,7 @@ Inspect [/install_repo.sh](/install_repo.sh)
 wget -qO- https://raw.githubusercontent.com/CircuitGremlin/ServerPi/main/install_repo.sh | bash
 ```
 ### Install services
-Inspect [/install_service.sh](/install_service.sh)
+Inspect [/install_service.sh](/install_service.sh), [/python/serverpi-send-intermediate-status/install.sh](/python/serverpi-send-intermediate-status/install.sh), [/python/serverpi-send-ready-status/install.sh](/python/serverpi-send-ready-status/install.sh)
 ```sh
 wget -qO- https://raw.githubusercontent.com/CircuitGremlin/ServerPi/main/install_service.sh | bash
 ```

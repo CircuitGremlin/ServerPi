@@ -96,45 +96,57 @@ Quantity  | Part | Value
 
 # Installation
 ### Install needed packages and enable I2C interface
-```
+```sh
 wget -qO- https://raw.githubusercontent.com/CircuitGremlin/ServerPi/main/install_packages_and_i2c.sh | bash
 ```
 Reboot if necessary
-```
+```sh
 sudo reboot
 ```
 ### Install this repository
-```
+```sh
 wget -qO- https://raw.githubusercontent.com/CircuitGremlin/ServerPi/main/install_repo.sh | bash
 ```
 ### Install services
-```
+```sh
 wget -qO- https://raw.githubusercontent.com/CircuitGremlin/ServerPi/main/install_service.sh | bash
 ```
 ### Install fan
-```
+```sh
 wget -qO- https://raw.githubusercontent.com/CircuitGremlin/ServerPi/main/install_fan.sh | bash
 ```
 Reboot if necessary
-```
+```sh
 sudo reboot
 ```
 
 
 # Led configuration
 Activate virtual python environment
-```
+```sh
 source ~/ServerPi/python/pyvenv/bin/activate
 ```
 Run python led server
-```
+```sh
 python ~/ServerPi/python/serverpi-led-server/serverpi-led-server.py
 ```
-Go to http://your-server:3001 and set your led brightness and stop server with ctrl+c.
+Go to http://your-server:3001 and set your led brightness. To stop the server, press Ctrl+C.
 
 
 # Oled stats
 I use my own python script: https://github.com/CircuitGremlin/RPiOledStatsLuma
+
+### Setup button
+Edit `config.yml`
+```sh
+nano ~/RPiOledStatsLuma/config.yml
+```
+Setup button like so
+```yaml
+buttons:
+  - gpio: "17"
+    func: "next"
+```
 
 
 # Known issues

@@ -110,7 +110,7 @@
         }
 
         // Make stored brightness request
-        async function makeStoredBrightnessRequest() {
+        async function makeStoredBrightnessRequest(updateTestBrightness) {
             const array = [
                 fetch('/json/storedBrightness.json')
             ];
@@ -121,6 +121,10 @@
                 storedBrightness = data[0];
                 //console.log(storedBrightness);
                 setRangeValues(storedBrightness)
+                if (updateTestBrightness) {
+                    for (i = 0; i < 3; i++)
+                        setTestBrightness(i, storedBrightness[i]);
+                }
             } catch (e) {
                 console.error(e);
             }

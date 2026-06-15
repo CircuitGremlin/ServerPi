@@ -25,15 +25,15 @@ This server case isn't the smallest, but I'm happy with it so far. It sits on my
 
 
 ## Case
-[3D print files](https://github.com/CircuitGremlin/ServerPi/blob/main/3d_print_files)
+[3D print files](https://github.com/CircuitGremlin/ServerPi/blob/main/3d_print_files)<br />
 [Plywood panel plans](https://github.com/CircuitGremlin/ServerPi/blob/main/plywood_panel_plans)
 
 ![picture alt](https://github.com/CircuitGremlin/ServerPi/blob/main/RPi5_X1009_Case_1.png "RPi5 X1009 Case")
 ![picture alt](https://github.com/CircuitGremlin/ServerPi/blob/main/RPi5_X1009_Case_2.png "RPi5 X1009 Case")
 
 ## PCB
-[Schematic](https://github.com/CircuitGremlin/ServerPi/blob/main/pcb_files/Schematic_RPi5_ServerPi_v0.03.pdf)
-[Preview](https://github.com/CircuitGremlin/ServerPi/blob/main/pcb_files/PCB_RPi5_ServerPi_v0.03.pdf)
+[Schematic](https://github.com/CircuitGremlin/ServerPi/blob/main/pcb_files/Schematic_RPi5_ServerPi_v0.03.pdf)<br />
+[Preview](https://github.com/CircuitGremlin/ServerPi/blob/main/pcb_files/PCB_RPi5_ServerPi_v0.03.pdf)<br />
 [Files](https://github.com/CircuitGremlin/ServerPi/blob/main/pcb_files)
 
 ![picture alt](https://github.com/CircuitGremlin/ServerPi/blob/main/pcb_files/RPi5_ServerPi_v0.03_1.png "RPi5 ServerPi v0.03")
@@ -122,13 +122,13 @@ Run python led server
 ```
 python ~/ServerPi/python/serverpi-led-server/serverpi-led-server.py
 ```
-Go to ![http://your-server:3001](http://your-server:3001) and set your led brightness
+Go to [http://your-server:3001](http://your-server:3001) and set your led brightness
 
 Stop server with ctrl+c
 
 
 # Oled stats
-I use my own python script: ![https://github.com/CircuitGremlin/RPiOledStatsLuma](https://github.com/CircuitGremlin/RPiOledStatsLuma){:target="_blank" rel="noopener"}
+I use my own python script: [https://github.com/CircuitGremlin/RPiOledStatsLuma](https://github.com/CircuitGremlin/RPiOledStatsLuma)
 
 
 # Known issues

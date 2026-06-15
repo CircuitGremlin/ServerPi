@@ -5,6 +5,7 @@
 - [Installation](#installation)
 - [Led configuration](#led-configuration)
 - [Known issues](#known-issues)
+- [To do](#to-do)
 
 
 # Information

@@ -21,6 +21,10 @@
 [Preview](https://github.com/CircuitGremlin/ServerPi/blob/main/pcb_files/PCB_RPi5_ServerPi_v0.03.pdf)
 [Files](https://github.com/CircuitGremlin/ServerPi/blob/main/pcb_files)
 
+![picture alt](https://github.com/CircuitGremlin/ServerPi/blob/main/pcb_files/RPi5_ServerPi_v0.03_1.png "RPi5 ServerPi v0.03")
+![picture alt](https://github.com/CircuitGremlin/ServerPi/blob/main/pcb_files/RPi5_ServerPi_v0.03_2.png "RPi5 ServerPi v0.03")
+
+
 
 ## Bill of materials
 ### Raspberry Pi hardware

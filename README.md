@@ -29,10 +29,10 @@ This server case isn't the smallest, but I'm happy with it so far. It sits on my
 
 ## Case
 [3D print files](/3d_print_files)<br />
-[Plywood panel plans](https://github.com/CircuitGremlin/ServerPi/blob/main/plywood_panel_plans)
+[Plywood panel plans](/plywood_panel_plans)
 
-![picture alt](https://github.com/CircuitGremlin/ServerPi/blob/main/RPi5_X1009_Case_1.png "RPi5 X1009 Case")
-![picture alt](https://github.com/CircuitGremlin/ServerPi/blob/main/RPi5_X1009_Case_2.png "RPi5 X1009 Case")
+![picture alt](/RPi5_X1009_Case_1.png "RPi5 X1009 Case")
+![picture alt](/RPi5_X1009_Case_2.png "RPi5 X1009 Case")
 
 ## PCB
 [Schematic](https://github.com/CircuitGremlin/ServerPi/blob/main/pcb_files/Schematic_RPi5_ServerPi_v0.03.pdf)<br />

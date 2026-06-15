@@ -32,7 +32,7 @@ This server case isn't the smallest, but I'm happy with it so far. It sits on my
 ![picture alt](/RPi5_X1009_Case_2.png "RPi5 X1009 Case")
 
 ## PCB
-[Schematic](/Schematic_RPi5_ServerPi_v0.03.pdf)<br />
+[Schematic](pcb_files/Schematic_RPi5_ServerPi_v0.03.pdf)<br />
 [Preview](/pcb_files/PCB_RPi5_ServerPi_v0.03.pdf)<br />
 [Files](/pcb_files)
 

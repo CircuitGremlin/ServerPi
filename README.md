@@ -96,29 +96,31 @@ Quantity  | Part | Value
 
 # Installation
 ### Install needed packages and enable I2C interface
-Inspect [/install_packages_and_i2c.sh](/install_packages_and_i2c.sh)
 ```sh
 wget -qO- https://raw.githubusercontent.com/CircuitGremlin/ServerPi/main/install_packages_and_i2c.sh | bash
 ```
+Inspect [/install_packages_and_i2c.sh](/install_packages_and_i2c.sh)
+
 Reboot if necessary
 ```sh
 sudo reboot
 ```
 ### Install this repository
-Inspect [/install_repo.sh](/install_repo.sh)
 ```sh
 wget -qO- https://raw.githubusercontent.com/CircuitGremlin/ServerPi/main/install_repo.sh | bash
 ```
+Inspect [/install_repo.sh](/install_repo.sh)
 ### Install services
-Inspect [/install_service.sh](/install_service.sh), [/python/serverpi-send-intermediate-status/install.sh](/python/serverpi-send-intermediate-status/install.sh), [/python/serverpi-send-ready-status/install.sh](/python/serverpi-send-ready-status/install.sh)
 ```sh
 wget -qO- https://raw.githubusercontent.com/CircuitGremlin/ServerPi/main/install_service.sh | bash
 ```
+Inspect [/install_service.sh](/install_service.sh), [/python/serverpi-send-intermediate-status/install.sh](/python/serverpi-send-intermediate-status/install.sh), [/python/serverpi-send-ready-status/install.sh](/python/serverpi-send-ready-status/install.sh)
 ### Install fan
-Inspect [/install_fan.sh](/install_fan.sh)
 ```sh
 wget -qO- https://raw.githubusercontent.com/CircuitGremlin/ServerPi/main/install_fan.sh | bash
 ```
+Inspect [/install_fan.sh](/install_fan.sh)
+
 Reboot if necessary
 ```sh
 sudo reboot

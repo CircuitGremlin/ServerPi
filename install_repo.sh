@@ -9,7 +9,7 @@ echo "Get 'ServerPi' repo"
 git clone https://github.com/CircuitGremlin/ServerPi.git
 
 # Open directory
-echo "Open 'ServerPi' directory"
+echo "Open 'ServerPi/python' directory"
 cd ServerPi/python
 
 # Create virtual python environment

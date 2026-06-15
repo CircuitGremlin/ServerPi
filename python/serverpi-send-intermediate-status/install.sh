@@ -7,7 +7,7 @@ DESCRIPTION="Sends intermediate status to ATtiny over I2C before reboot, halt or
 BEFORE="reboot.target halt.target poweroff.target"
 WANTED_BY="reboot.target halt.target poweroff.target"
 FILENAME="serverpi-send-intermediate-status"
-VIRTUAL_ENV="$DIRNAME/../venv/bin/python"
+VIRTUAL_ENV="$DIRNAME/../pyvenv/bin/python"
 
 # Create $TEMP_DIR/$FILENAME.service
 echo "Create $TEMP_DIR/$FILENAME.service"

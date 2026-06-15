@@ -10,7 +10,7 @@ git clone https://github.com/CircuitGremlin/ServerPi.git
 
 # Open directory
 echo "Open 'ServerPi' directory"
-cd ServerPi
+cd ServerPi/python
 
 # Create virtual python environment
 echo "Create virtual python environment"

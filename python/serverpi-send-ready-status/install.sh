@@ -7,7 +7,7 @@ DESCRIPTION="Sends ready status to ATtiny over I2C"
 AFTER="network.target multi-user.target"
 WANTED_BY="multi-user.target"
 FILENAME="serverpi-send-ready-status"
-VIRTUAL_ENV="$DIRNAME/../venv/bin/python"
+VIRTUAL_ENV="$DIRNAME/../pyvenv/bin/python"
 
 # Create $TEMP_DIR/$FILENAME.service
 echo "Create $TEMP_DIR/$FILENAME.service"

@@ -4,6 +4,7 @@
 - [Bill of materials](#bill-of-materials)
 - [Installation](#installation)
 - [Led configuration](#led-configuration)
+- [Known issues](#known-issues)
 
 
 # Information
@@ -110,3 +111,12 @@ python ~/ServerPi/python/serverpi-led-server/serverpi-led-server.py
 Go to http://your-server:3001 and set your led brightness
 
 Stop server with ctrl+c
+
+
+# Known issues
+- None yet
+
+
+# To do
+- Setup power button hold function (c++ and python) to reboot Raspberry Pi
+- Setup status led (Secondary button) to visualize status, disk health, etc.

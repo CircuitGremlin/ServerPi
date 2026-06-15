@@ -1,5 +1,3 @@
-# OLED Advanced Stats Display Script For Raspberry Pi
-
 - [Information](#information)
 - [Case](#setup-your-display)
 - [PCB](#setup-your-display)
@@ -7,16 +5,22 @@
 - [Installation guide](#installation-guide)
 - [Configuration](#configuration)
 
+
 # Information
 
 
 # Case
+### 3D print files
+- [Files](https://github.com/CircuitGremlin/ServerPi/blob/main/3d_print_files)
+### Plywood panels
+- [Files](https://github.com/CircuitGremlin/ServerPi/blob/main/plywood_panel_files)
 
 
 # PCB
 - [Schematic](https://github.com/CircuitGremlin/ServerPi/blob/main/pcb_files/Schematic_RPi5_ServerPi_v0.03.pdf)
 - [Preview](https://github.com/CircuitGremlin/ServerPi/blob/main/pcb_files/PCB_RPi5_ServerPi_v0.03.pdf)
 - [Files](https://github.com/CircuitGremlin/ServerPi/blob/main/pcb_files)
+
 
 # Bill of materials
 ### Raspberry Pi hardware

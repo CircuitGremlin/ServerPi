@@ -115,6 +115,10 @@ wget -qO- https://raw.githubusercontent.com/CircuitGremlin/ServerPi/main/install
 ```
 wget -qO- https://raw.githubusercontent.com/CircuitGremlin/ServerPi/main/install_fan.sh | bash
 ```
+Reboot if necessary
+```
+sudo reboot
+```
 
 
 # Led configuration

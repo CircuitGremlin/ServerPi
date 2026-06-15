@@ -12,8 +12,7 @@
 
 
 # Information
-A few years ago, I built a server with a CM4, a CM4IO board and an asm1064 PCI-e card. With the release of the Raspberry Pi 5, I wanted to build a new server. I prefer the Geekworm X1009 to the Radxa Penta because it has five ports and the power connector is on the back.
-
+A few years ago, I built a server with a CM4, a CM4IO board and an asm1064 PCI-e card. With the release of the Raspberry Pi 5, I wanted to build a new server. I prefer the Geekworm X1009 to the Radxa Penta because it has five ports and the power connector is on the back.<br />
 This server case isn't the smallest, but I'm happy with it so far. It sits on my media unit and is always visible, so it needs to look good.
 
 
@@ -122,8 +121,7 @@ Run python led server
 ```
 python ~/ServerPi/python/serverpi-led-server/serverpi-led-server.py
 ```
-Go to http://your-server:3001 and set your led brightness<br />
-Stop server with ctrl+c
+Go to http://your-server:3001 and set your led brightness and stop server with ctrl+c.
 
 
 # Oled stats

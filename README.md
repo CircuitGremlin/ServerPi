@@ -116,7 +116,7 @@ Stop server with ctrl+c
 
 
 # Known issues
-- None yet
+- None yet ;)
 
 
 # To do
@@ -125,4 +125,4 @@ Stop server with ctrl+c
 
 
 # Contribute
-- Let me know if you found an issue or like to contribute. Thank you!
+Let me know if you found an issue or like to contribute. Thank you!

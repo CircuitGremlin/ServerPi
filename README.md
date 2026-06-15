@@ -122,7 +122,7 @@ Run python led server
 ```
 python ~/ServerPi/python/serverpi-led-server/serverpi-led-server.py
 ```
-Go to http://your-server:3001 and set your led brightness
+Go to ![http://your-server:3001](http://your-server:3001) and set your led brightness
 
 Stop server with ctrl+c
 

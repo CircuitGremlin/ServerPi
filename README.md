@@ -6,6 +6,7 @@
 - [Led configuration](#led-configuration)
 - [Known issues](#known-issues)
 - [To do](#to-do)
+- [Contribute](#contribute)
 
 
 # Information
@@ -121,3 +122,7 @@ Stop server with ctrl+c
 # To do
 - Setup power button hold function (c++ and python) to reboot Raspberry Pi
 - Setup status led (Secondary button) to visualize status, disk health, etc.
+
+
+# Contribute
+- Let me know if you found an issue or like to contribute. Thank you!

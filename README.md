@@ -25,7 +25,7 @@ This server case isn't the smallest, but I'm happy with it so far. It sits on my
 
 
 ## Case
-![3D print files](https://github.com/CircuitGremlin/ServerPi/blob/main/3d_print_files)
+![3D print files](https://github.com/CircuitGremlin/ServerPi/blob/main/3d_print_files){:target="_blank" rel="noopener"}
 ![Plywood panel plans](https://github.com/CircuitGremlin/ServerPi/blob/main/plywood_panel_plans)
 
 ![picture alt](https://github.com/CircuitGremlin/ServerPi/blob/main/RPi5_X1009_Case_1.png "RPi5 X1009 Case")
@@ -128,7 +128,7 @@ Stop server with ctrl+c
 
 
 # Oled stats
-I use my own python script: ![https://github.com/CircuitGremlin/RPiOledStatsLuma](https://github.com/CircuitGremlin/RPiOledStatsLuma)
+I use my own python script: ![https://github.com/CircuitGremlin/RPiOledStatsLuma](https://github.com/CircuitGremlin/RPiOledStatsLuma){:target="_blank" rel="noopener"}
 
 
 # Known issues

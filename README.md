@@ -103,11 +103,11 @@ Reboot if necessary
 ```
 sudo reboot
 ```
-### Install repo
+### Install this repositorie
 ```
 wget -qO- https://raw.githubusercontent.com/CircuitGremlin/ServerPi/main/install_repo.sh | bash
 ```
-### Install service
+### Install services
 ```
 wget -qO- https://raw.githubusercontent.com/CircuitGremlin/ServerPi/main/install_service.sh | bash
 ```

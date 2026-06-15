@@ -2,7 +2,7 @@
 - [Case](#case)
 - [PCB](#pcb)
 - [Bill of materials](#bill-of-materials)
-- [Installation guide](#installation-guide)
+- [Installation](#installation)
 - [Configuration](#configuration)
 
 
@@ -78,7 +78,32 @@ Quantity  | Part | Value
 14 | Jumperwire | 15-20cm with female housing
 1 | Combo | Male PWM fan connector & cable
 
-# Installation guide
+# Installation
+### Install needed packages and enable I2C interface
+```
+wget -qO- https://raw.githubusercontent.com/CircuitGremlin/ServerPi/main/install_packages_and_i2c.sh | bash
+```
+Reboot if necessary
+```
+sudo reboot
+```
+### Install repo
+```
+wget -qO- https://raw.githubusercontent.com/CircuitGremlin/ServerPi/main/install_repo.sh | bash
+```
+### Install service
+```
+wget -qO- https://raw.githubusercontent.com/CircuitGremlin/ServerPi/main/install_service.sh | bash
+```
+
+
+
+
+
+
+
+
+
 ## 1. Update system
 ```
 sudo apt update && sudo apt -y full-upgrade

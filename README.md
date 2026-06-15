@@ -1,17 +1,14 @@
-Information\
-    [Information](#information)
-  - [Key features](#key-features)
-  - [Case](#case)
-  - [PCB](#pcb)
-  - [Bill of materials](#bill-of-materials)
-
-
-- [Installation](#installation)
-- [Led configuration](#led-configuration)
-- [Oled stats](#oled-stats)
-- [Known issues](#known-issues)
-- [To do](#to-do)
-- [Contribute](#contribute)
+[Information](#information)\
+[Key features](#key-features)\
+[Case](#case)\
+[PCB](#pcb)\
+[Bill of materials](#bill-of-materials)\
+[Installation](#installation)\
+[Led configuration](#led-configuration)\
+[Oled stats](#oled-stats)\
+[Known issues](#known-issues)\
+[To do](#to-do)\
+[Contribute](#contribute)
 
 
 # Information
@@ -35,12 +32,12 @@ This server case isn't the smallest, but I'm happy with it so far. It sits on my
 ![picture alt](/RPi5_X1009_Case_2.png "RPi5 X1009 Case")
 
 ## PCB
-[Schematic](https://github.com/CircuitGremlin/ServerPi/blob/main/pcb_files/Schematic_RPi5_ServerPi_v0.03.pdf)<br />
-[Preview](https://github.com/CircuitGremlin/ServerPi/blob/main/pcb_files/PCB_RPi5_ServerPi_v0.03.pdf)<br />
-[Files](https://github.com/CircuitGremlin/ServerPi/blob/main/pcb_files)
+[Schematic](/Schematic_RPi5_ServerPi_v0.03.pdf)<br />
+[Preview](/pcb_files/PCB_RPi5_ServerPi_v0.03.pdf)<br />
+[Files](/pcb_files)
 
-![picture alt](https://github.com/CircuitGremlin/ServerPi/blob/main/pcb_files/RPi5_ServerPi_v0.03_1.png "RPi5 ServerPi v0.03")
-![picture alt](https://github.com/CircuitGremlin/ServerPi/blob/main/pcb_files/RPi5_ServerPi_v0.03_2.png "RPi5 ServerPi v0.03")
+![picture alt](/pcb_files/RPi5_ServerPi_v0.03_1.png "RPi5 ServerPi v0.03")
+![picture alt](/pcb_files/RPi5_ServerPi_v0.03_2.png "RPi5 ServerPi v0.03")
 
 
 

@@ -9,20 +9,18 @@
 # Information
 
 
-# Case
-### 3D print files
-- [Files](https://github.com/CircuitGremlin/ServerPi/blob/main/3d_print_files)
-### Plywood panels
-- [Files](https://github.com/CircuitGremlin/ServerPi/blob/main/plywood_panel_files)
+## Case
+[3D print files](https://github.com/CircuitGremlin/ServerPi/blob/main/3d_print_files)
+[Plywood panel files](https://github.com/CircuitGremlin/ServerPi/blob/main/plywood_panel_files)
 
 
-# PCB
-- [Schematic](https://github.com/CircuitGremlin/ServerPi/blob/main/pcb_files/Schematic_RPi5_ServerPi_v0.03.pdf)
-- [Preview](https://github.com/CircuitGremlin/ServerPi/blob/main/pcb_files/PCB_RPi5_ServerPi_v0.03.pdf)
-- [Files](https://github.com/CircuitGremlin/ServerPi/blob/main/pcb_files)
+## PCB
+[Schematic](https://github.com/CircuitGremlin/ServerPi/blob/main/pcb_files/Schematic_RPi5_ServerPi_v0.03.pdf)
+[Preview](https://github.com/CircuitGremlin/ServerPi/blob/main/pcb_files/PCB_RPi5_ServerPi_v0.03.pdf)
+[Files](https://github.com/CircuitGremlin/ServerPi/blob/main/pcb_files)
 
 
-# Bill of materials
+## Bill of materials
 ### Raspberry Pi hardware
 Quantity  | Part
 :---------|:-----

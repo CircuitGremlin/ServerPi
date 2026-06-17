@@ -20,7 +20,7 @@ This server case isn't the smallest, but I'm happy with it so far. It sits on my
 # Key features
 - 149x194x88mm (width x depth x height(without feet))
 - Supports 5x2.5" HDD up to 15mm on caddy's
-- Access to the SD card, power button and LED is located on the side behind the ventilation grille.
+- Access to the SD card, power button and LED on the side behind the ventilation grille.
 - Custom PCB and software (Easy configure led's wia Webserver)
 - Oled stats (https://github.com/CircuitGremlin/RPiOledStatsLuma)
 
